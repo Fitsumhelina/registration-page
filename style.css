@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccf5ff; /* Set a light background color */
+}
+
+.div01 {
+    background-color:#ffffff;
+    display: flex;
+    width: 600px;
+    height: 400px; /* Adjusted to auto height */
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.div02 {
+    width: 220px;
+    background-image: url('/img/wallpaperflare.com_wallpaper (8).jpg');
+    background-size: cover;
+    border-radius: 4%;
+}
+
+
+.div02 ul li {
+
+    padding: 5px;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 0px;
+    
+    
+}
+
+.div02 ul li p {
+    color: #f9f9f9;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.div002 {
+    flex: 1; /* Expanded to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px; /* Added padding for spacing */
+}
+
+.div03 {
+    text-align: center;
+}
+
+.div03 h2 {
+    
+    color: #054182; /* Set text color */
+    text-align: center;
+}
+
+.div03 p {
+    color: #054182; /* Set text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: flex;
+    margin-bottom: 5px;
+    color: #054182; /* Set label color */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 120px;
+    padding: 15px;
+    background-color: #054182;
+    color: white;
+    border-radius: 7%;
+    text-align: center;
+}
+button:hover{
+    background-color: white !important;
+    color: #054182 ;
+}
+
+.bar{
+    background-color: #054182;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bar p {
+    margin-left:20px;
+}
+  
