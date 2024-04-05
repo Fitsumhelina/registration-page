@@ -3,6 +3,8 @@
 // let Email= document.getElementById('email').value;
 const list = document.querySelector(".bar")
 const form = document.querySelector(".form")
+const resetButton = document.querySelector('.reset-button');
+
 // function msg(){
 //     name.textContent=Name.value;
 
@@ -59,7 +61,25 @@ function displayInfo(e) {
     // infoParagraph.innerHTML = `Name: ${Name}<br>Phone: ${Phone}<br>Email: ${Email}`;
 
 }
+
+function clearDisplayedData() {
+    // Remove all list items
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+}
+
 form.addEventListener("submit", displayInfo)
+
+resetButton.addEventListener('click', clearDisplayedData);
+
+// Select the reset button
+
+// Function to clear all displayed data
+
+// Add event listener to the reset button
+
+
 
 // function clearAllInfo() {
 //     // Remove all list items
